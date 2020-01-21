@@ -26,7 +26,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 //Route Middleware
-app.use("/api/one-touch-inspiration/user/", userRoutes);
+app.use("/api/one-touch-inspiration/", userRoutes);
 
 //Port
 const PORT = 4000;
